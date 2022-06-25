@@ -176,10 +176,12 @@ p{
   height: 93vh;
   position: relative;
   font-family: 'Pacifico', cursive;
+  right: 1%;
+  
 }
 
 iframe{
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   border: 0px;
   width: 560px;
   height: 315px;
@@ -198,12 +200,12 @@ iframe{
   position: relative;
   align-items: flex-end;
   justify-content: flex-end;
-  margin-top: 1%; 
+  margin-top: 2%; 
 }
 
 .purple-top-video{
   position: absolute;
-  top: 5%;
+  top: 1%;
   display: none;
   align-items: flex-end;
   justify-content: flex-end;
@@ -227,7 +229,7 @@ footer{
   width: 100vw;
   gap: 0.5rem;
   font-size: 0.8rem;
-  background-color: #ee82ee;
+  background-color: #ffffff;
   height: 7%;
 }
 

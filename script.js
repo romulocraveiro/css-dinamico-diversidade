@@ -10,12 +10,13 @@ const paragraph = document.querySelector('p');
 const video = document.querySelector('.video');
 const iFrame = document.createElement('iframe');
 const a = document.querySelector('a');
+const linkToSpeaker = document.querySelector('.link-to-speaker');
 const topPurpleVideo = document.createElement('iframe');
 const photoBy = document.querySelector('.photo-by');
 
 function handleChangeBackgroundColor(e){
     video.append(iFrame);
-    
+
     if(e.target.id === 'purple'){
         topPurpleVideo.setAttribute('src', 'https://www.youtube.com/embed/XeuZG0zyi0k')
         iFrame.setAttribute('src', 'https://www.youtube.com/embed/lwzBfbw9l-w');
@@ -35,6 +36,7 @@ function handleChangeBackgroundColor(e){
         iFrame.style.marginBottom = 0;
         footer.style.display = 'none';
 
+
     } else {
         h1.innerText = '';
         img.style.display = 'none';
@@ -45,10 +47,12 @@ function handleChangeBackgroundColor(e){
         topPurpleVideo.style.display = 'none';
         iFrame.style.width = '560px';
         iFrame.style.height = '315px';
-        a.style.display = 'none';
+        iFrame.style.marginBottom = '15%';
+        linkToSpeaker.style.display = 'none';
         a.setAttribute('target', '_blank');
         photoBy.style.display = 'none';
         footer.style.display = 'flex';
+
 
         
         if(e.target.id === 'red'){
@@ -97,8 +101,6 @@ function handleChangeBackgroundColor(e){
                 iFrame.setAttribute('src', 'https://www.youtube.com/embed/Z6acPxenN14');
                 title.innerText = 'Movimento Negro x LGBTQIAP+';
                 paragraph.innerText = 'Neste vídeo, Alê Garcia comenta as intersecções entre os movimentos negro e LGBTQIAP+, sob uma perspectiva histórica que aborda os contextos brasileiro e estadunidense.';
-                a.style.display = 'flex';
-                a.setAttribute('href', 'https://www.geledes.org.br/atriz-de-pose-que-aprendeu-a-programar-sozinha-vem-ao-brasil-divulgar-startup-de-ti-que-criou-para-ajudar-pessoas-trans-como-ela/');
             }else if(e.target.id === 'brown'){
                 body.style.backgroundColor = '#a52a2a';
                 iFrame.setAttribute('src', 'https://www.youtube.com/embed/QsPTcCRmKFg');
@@ -107,7 +109,7 @@ function handleChangeBackgroundColor(e){
                 a.style.display = 'flex';
                 a.innerText = 'Clique aqui e saiba mais sobre Angelica Ross.'
                 a.setAttribute('href', 'https://www.geledes.org.br/atriz-de-pose-que-aprendeu-a-programar-sozinha-vem-ao-brasil-divulgar-startup-de-ti-que-criou-para-ajudar-pessoas-trans-como-ela/');
-                a.setAttribute('target', '_blank'); 
+                 
             }
     }
 }
