@@ -12,7 +12,7 @@ const iFrame = document.createElement('iframe');
 const a = document.querySelector('a');
 const linkToSpeaker = document.querySelector('.link-to-speaker');
 const topPurpleVideo = document.createElement('iframe');
-const photoBy = document.querySelector('.photo-by');
+
 
 function handleChangeBackgroundColor(e){
     video.append(iFrame);
