@@ -17,10 +17,6 @@
 * Estilizar cores dos backgrounds adicionando "ba" aos rgba de modo que não ficassem tão vibrantes e cansassem a visão.
 * _Styling the background colors by adding "ba" to the rgba so that they weren't so vibrating and tiring for the eye sight._
 
-* Eu quis que minha bandeira tremulasse numa animação com loop.Daí eu encontrei um site bem legal que faz isso automaticamente (ver a sessão de links); 
-
-*_I wanted my rainbow flag to have an animation loop that would make it wave. So I found this cool website that makes it for you (see links below)._
-
 ## Algumas lições que aprendi / Some lessons I learned
 
 * Se você digitar as iniciais de uma propriedade ou método no JavaScript, um menu aparece com opções, ou ao se clicar "Enter" você muito provavelmente terá selecionado o que queria; 
@@ -40,7 +36,6 @@
 * [Cubos Academy](https://cubos.academy/)
 * [How to make a neon border - Stack Overflow](https://stackoverflow.com/questions/36478969/how-to-make-a-dotted-neon-border)
 * [Tutorial para inserir vídeos do Youtube - Embeded Youtube videos tutorial](https://www.youtube.com/watch?v=xd24_NnzKy4)
-* [Onde montei o gif da bandeira - Here is where I costumized my flag gif:](https://makesweet.com/)
 * [Efeito piscar do neon do H1 - H1's flickering neon effect:](https://www.instagram.com/p/Ce2mqa3pttD/)
 * [Bandeirinha que vai na aba do navegador / Flag icon that goes in browser's tab:](https://www.flaticon.com/free-icons/lgtbi)
 * [Criar e adicionar um favicon para a aba do navegador: Creating and adding a favicon to browser's tab:](https://www.metatags.org/seo-tips/design-tips/favicon-ico/)

@@ -50,7 +50,6 @@ function handleChangeBackgroundColor(e){
         iFrame.style.marginBottom = '15%';
         linkToSpeaker.style.display = 'none';
         a.setAttribute('target', '_blank');
-        photoBy.style.display = 'none';
         footer.style.display = 'flex';
 
 
